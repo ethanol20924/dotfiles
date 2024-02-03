@@ -14,7 +14,7 @@ else
     # Up to date
     # Manually update wezterm config
     echo "Updating wezterm configs"
-    cp -f "$HOME/.config/wezterm" .config/
+    cp -rf "$HOME/.config/wezterm" .config/
     
     echo "Manually managed configs updated"
   fi
