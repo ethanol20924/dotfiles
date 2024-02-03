@@ -12,6 +12,10 @@ else
     exit
   else
     # Up to date
-    echo "up to date"
+    # Manually update wezterm config
+    echo "Updating wezterm configs"
+    mv "$HOME/.config/wezterm" .config/wezterm
+    
+    echo "Manually managed configs updated"
   fi
 fi
