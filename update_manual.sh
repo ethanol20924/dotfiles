@@ -14,7 +14,7 @@ else
     # Up to date
     # Manually update wezterm config
     echo "Updating wezterm configs"
-    mv "$HOME/.config/wezterm" .config/wezterm
+    mv "$HOME/.config/wezterm" .config/
     
     echo "Manually managed configs updated"
   fi
