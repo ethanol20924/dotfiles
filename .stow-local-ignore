@@ -1,0 +1,33 @@
+# Comments and blank lines are allowed.
+
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
+
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# don't copy setup script
+setup.sh
+update_manual.sh
+
+# wezterm doesn't like symlinked config file
+wezterm
+
+# don't copy backup folder
+bak
+
