@@ -1,0 +1,24 @@
+#!/bin/bash
+ 
+xsetroot -cursor_name left_ptr
+if ! pgrep sxhkd; then
+	sxhkd &
+fi
+if ! pgrep picom; then
+	picom -b --config ~/.config/picom/picom.conf &
+fi
+if ! pgrep polybar; then
+	/home/parallels/.config/polybar/launch.sh
+fi
+feh --bg-center /home/parallels/Documents/backgrounds/warm/b-008.jpg
+
+bspc monitor -d 1 2 3 4
+ 
+bspc config border_width	2
+bspc config window_gap		4
+ 
+bspc config split_ratio		0.62
+bspc config focus_follows_pointer	true
+bspc config pointer_modifier	mod1
+ 
+bspc config automatic_scheme	spiral

@@ -1,0 +1,26 @@
+
+2024/01/26 (00:09:21) | ===> btop++ v.1.2.13
+2024/01/26 (00:09:21) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/01/26 (23:47:15) | ===> btop++ v.1.2.13
+2024/01/26 (23:47:15) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/01/27 (11:09:01) | ===> btop++ v.1.2.13
+2024/01/27 (11:09:01) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/01/27 (15:39:43) | ===> btop++ v.1.2.13
+2024/01/27 (15:39:43) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/01/29 (19:34:16) | ===> btop++ v.1.2.13
+2024/01/29 (19:34:16) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/01/30 (10:39:49) | ===> btop++ v.1.2.13
+2024/01/30 (10:39:49) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+2024/01/30 (10:44:06) | ERROR: Stall in Runner thread, restarting!
+2024/01/30 (10:45:49) | ERROR: Stall in Runner thread, restarting!
+
+2024/01/31 (00:48:50) | ===> btop++ v.1.2.13
+2024/01/31 (00:48:50) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/02/02 (08:26:59) | ===> btop++ v.1.2.13
+2024/02/02 (08:26:59) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
