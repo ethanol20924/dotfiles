@@ -25,9 +25,6 @@ _darcs
 setup.sh
 update_manual.sh
 
-# wezterm doesn't like symlinked config file
-wezterm
-
 # don't copy backup folder
 bak
 
