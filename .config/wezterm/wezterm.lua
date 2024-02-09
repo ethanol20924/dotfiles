@@ -28,5 +28,8 @@ config.font = wezterm.font 'JetBrainsMono Nerd Font'
 config.window_background_opacity = 0.85
 config.text_background_opacity = 1.0
 
+-- Fix for reloading symlinked config
+wezterm.add_to_config_reload_watch_list(wezterm.config_dir)
+
 -- and finally, return the configuration to wezterm
 return config
