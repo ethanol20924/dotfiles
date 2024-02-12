@@ -5,12 +5,12 @@ if ! pgrep sxhkd; then
 	sxhkd &
 fi
 if ! pgrep picom; then
-	picom -b --config ~/.config/picom/picom.conf &
+	picom -b --config $HOME/.config/picom/picom.conf &
 fi
 if ! pgrep polybar; then
-	/home/parallels/.config/polybar/launch.sh
+	$HOME/.config/polybar/launch.sh
 fi
-feh --bg-center /home/parallels/Documents/backgrounds/warm/b-008.jpg
+feh --bg-center $HOME/backgrounds/warm/b-008.jpg
 
 bspc monitor -d 1 2 3 4
  

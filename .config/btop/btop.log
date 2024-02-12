@@ -27,3 +27,6 @@
 
 2024/02/03 (18:59:20) | ===> btop++ v.1.2.13
 2024/02/03 (18:59:20) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
+
+2024/02/12 (21:37:22) | ===> btop++ v.1.2.13
+2024/02/12 (21:37:22) | WARNING: get_cpuHZ() : Failed to read /sys/devices/system/cpu/cpufreq/policy and /proc/cpuinfo.
